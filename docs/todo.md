@@ -1,0 +1,10 @@
+- run for multiple hosts
+- run multiple commands
+- table output
+- json output
+- create tunnels
+- Demo Mode: paused run: press Enter after each command (demo mode)
+- start shell
+- start interactive command
+- show time to run
+- deploy k3s
