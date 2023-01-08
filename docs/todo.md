@@ -7,4 +7,8 @@
 - start shell
 - start interactive command
 - show time to run
-- deploy k3s
+- .deploy k3s
+- deploy node via nvm
+- push files
+- clone repo
+- test from windows

@@ -1,5 +1,11 @@
-import dotenv from 'dotenv'
+import con from "./connection.js";
 
-dotenv.config()
+await con.mkdir("hello");
+let res = await con.execCommand("ls -la");
+console.log(res);
 
-console.log(process.env)
+let cmd = "curl -sfL https://get.k3s.io | sh - ";
+res = await con.execCommand(cmd);
+console.log(res);
+
+con.dispose();

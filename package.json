@@ -1,24 +1,30 @@
 {
-    "name": "tools-ssh-run",
-    "version": "0.0.1",
-    "description": "",
-    "main": "dist/index.js",
-    "type": "module",
-    "scripts": {
-        "test": "node --test"
-    },
-    "keywords": [
-        "ssh",
-        "remote",
-        "execute",
-        "script",
-        "run"
-    ],
-    "author": "Aibulat",
-    "license": "MIT",
-    "dependencies": {
-        "@types/node": "^18.11.18",
-        "dotenv": "^16.0.3",
-        "node-ssh": "^13.0.0"
-    }
+  "name": "tools-ssh-run",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "build": "tsc",
+    "build:watch": "tsc -w"
+  },
+  "keywords": [
+    "ssh",
+    "remote",
+    "execute",
+    "script",
+    "run"
+  ],
+  "author": "Aibulat",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-ssh": "^13.0.0",
+    "ssh2": "^1.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@types/ssh2": "^1.11.6"
+  }
 }

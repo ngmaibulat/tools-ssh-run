@@ -2,19 +2,31 @@ lockfileVersion: 5.4
 
 specifiers:
   '@types/node': ^18.11.18
+  '@types/ssh2': ^1.11.6
   dotenv: ^16.0.3
   node-ssh: ^13.0.0
+  ssh2: ^1.11.0
 
 dependencies:
-  '@types/node': 18.11.18
   dotenv: 16.0.3
   node-ssh: 13.0.0
+  ssh2: 1.11.0
+
+devDependencies:
+  '@types/node': 18.11.18
+  '@types/ssh2': 1.11.6
 
 packages:
 
   /@types/node/18.11.18:
     resolution: {integrity: sha512-DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA==}
-    dev: false
+    dev: true
+
+  /@types/ssh2/1.11.6:
+    resolution: {integrity: sha512-8Mf6bhzYYBLEB/G6COux7DS/F5bCWwojv/qFo2yH/e4cLzAavJnxvFXrYW59iKfXdhG6OmzJcXDasgOb/s0rxw==}
+    dependencies:
+      '@types/node': 18.11.18
+    dev: true
 
   /asn1/0.2.6:
     resolution: {integrity: sha512-ix/FxPn0MDjeyJ7i/yoHGFt/EX6LyNbxSEhPPXODPL+KB0VPk86UYfL0lMdy+KCnv+fmvIzySwaK5COwqVbWTQ==}
