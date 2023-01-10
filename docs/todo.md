@@ -1,14 +1,27 @@
+### Generic
+
 - run for multiple hosts
-- run multiple commands
+- test from windows
+
+### Advanced
+
 - table output
 - json output
 - create tunnels
 - Demo Mode: paused run: press Enter after each command (demo mode)
-- start shell
+
+### Interactive
+
+- .start shell
 - start interactive command
 - show time to run
+
+### Kubernetes
+
 - .deploy k3s
-- deploy node via nvm
-- push files
+- deploy k3s node; add to cluster
+
+### Dev related
+
+- deploy nodejs via nvm
 - clone repo
-- test from windows
