@@ -27,7 +27,7 @@ export async function fileReplace(path: string, search: string, replace: string)
     return await fs.writeFile(path, res);
 }
 
-export async function shell(con: NodeSSH, inp: NodeJS.WriteStream, out: NodeJS.ReadStream) {
+export async function shell(con: NodeSSH, inp: NodeJS.ReadStream, out: NodeJS.WriteStream) {
     const shell = await con.requestShell();
 
     shell.pipe(out);
